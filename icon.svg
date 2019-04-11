@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024 1024">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-itslearning);
+      }
+
+      .cls-2, .cls-4 {
+        fill: rgba(229,112,42,0.88);
+      }
+
+      .cls-3, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 70px;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-5 {
+        font-size: 100px;
+      }
+    </style>
+    <clipPath id="clip-itslearning">
+      <rect width="1024" height="1024"/>
+    </clipPath>
+  </defs>
+  <g id="itslearning" class="cls-1">
+    <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-2" width="1024" height="1024" rx="150"/>
+    <path id="Rectangle_2" data-name="Rectangle 2" class="cls-3" d="M50,0H200a0,0,0,0,1,0,0V150a50,50,0,0,1-50,50H50A50,50,0,0,1,0,150V50A50,50,0,0,1,50,0Z" transform="translate(188 387)"/>
+    <text id="its" class="cls-4" transform="translate(197 438)"><tspan x="64.812" y="76">its</tspan></text>
+    <text id="learning" class="cls-5" transform="translate(397 427)"><tspan x="40.276" y="108">learning</tspan></text>
+  </g>
+</svg>

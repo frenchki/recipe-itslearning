@@ -1,0 +1,13 @@
+{
+  "id": "itslearning",
+  "name": "ItsLearning",
+  "version": "1.0.0",
+  "description": "ItsLearning",
+  "main": "index.js",
+  "author": "Kim French",
+  "license": "MIT",
+  "repository": "https://github.com/frenchki",
+  "config": {
+    "serviceURL": "https://www.itslearning.com/"
+  }
+}
