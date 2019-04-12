@@ -1,16 +1,15 @@
 // ItsLearning integration
 module.exports = (Franz) => {
     function getMessages() {
-        let direct = 0;
-        let indirect = 0;
-        const FranzData = document.querySelector('.c-messages__body c-messages__threads').dataset;
-        if (FranzData) {
-            direct = FranzData.direct;
-            indirect = FranzData.indirect;
+        let directMessages = 0;
+        let indirectMessages = 0;
+        const ItsLearningNotifications = document.querySelector('span#notifications-badge');
+        const ItsLearningMessages = document.querySelector('span.l-mail-badge.l-personal-menu-instantmessage-count');
+        if (ItsLearningMessages || ItsLearningNotifications) {
+            directMessages = ItsLearningMessages.innerText;
+            indirectMessages = ItsLearningNotifications.innerText;
         }
-
-        Franz.setBadge(direct, indirect);
+        Franz.setBadge(directMessages, indirectMessages);
     }
-
     Franz.loop(getMessages);
 }
