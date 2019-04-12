@@ -6,8 +6,12 @@ module.exports = (Franz) => {
         const ItsLearningNotifications = document.querySelector('span#notifications-badge');
         const ItsLearningMessages = document.querySelector('span.l-mail-badge.l-personal-menu-instantmessage-count');
         if (ItsLearningMessages || ItsLearningNotifications) {
-            directMessages = ItsLearningMessages.innerText;
-            indirectMessages = ItsLearningNotifications.innerText;
+            if (!ItsLearningNotifications.classList.contains('h-displaynone')) {
+                indirectMessages = ItsLearningNotifications.innerText;
+            }
+            if (!ItsLearningMessages.classList.contains('h-displaynone')) {
+                directMessages = ItsLearningMessages.innerText;
+            }
         }
         Franz.setBadge(directMessages, indirectMessages);
     }
