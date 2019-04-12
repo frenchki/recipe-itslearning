@@ -8,6 +8,8 @@
   "license": "MIT",
   "repository": "https://github.com/frenchki/recipe-itslearning",
   "config": {
-    "serviceURL": "https://www.itslearning.com/"
+    "serviceURL": "https://{teamId}.itslearning.com/",
+    "hasTeamId": true,
+    "urlInputSuffix": ".itslearning.com"
   }
 }
