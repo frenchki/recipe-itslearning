@@ -6,7 +6,7 @@
   "main": "index.js",
   "author": "Kim French",
   "license": "MIT",
-  "repository": "https://github.com/frenchki",
+  "repository": "https://github.com/frenchki/recipe-itslearning",
   "config": {
     "serviceURL": "https://www.itslearning.com/"
   }
